@@ -1088,22 +1088,6 @@
     "type": "ct"
   },
   {
-    "name": "Documenso",
-    "slug": "documenso",
-    "desc": "Signing documents digitally should be fast and easy and should be the best practice for every document signed worldwide. This is technically quite easy today, but it also introduces a new party to every signature: The signing tool providers. While this is not a problem in itself, it should make us think about how we want these providers of trust to work. Documenso aims to be the world's most trusted document-signing tool. This trust is built by empowering you to self-host Documenso and review how it works under the hood.",
-    "script": "ct/documenso.sh",
-    "script_url": "https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/documenso.sh",
-    "categories": [
-      12
-    ],
-    "notes": [],
-    "type": "ct",
-    "default_credentials": {
-      "username": "helper-scripts@local.com",
-      "password": "helper-scripts"
-    }
-  },
-  {
     "name": "Dolibarr",
     "slug": "dolibarr",
     "desc": "Dolibarr ERP CRM is a modern software package to manage your company or foundation's activity (contacts, suppliers, invoices, orders, stocks, agenda, accounting, ...). it's an open source Web application (written in PHP) designed for businesses of any sizes, foundations and freelancers.",
@@ -5523,6 +5507,18 @@
       "You probably want to drastically extend the storage space to fit whatever clients you want to back up",
       "Directory `/opt/urbackup/backups` is set as initial backup path. Change it to your liking"
     ],
+    "type": "ct"
+  },
+  {
+    "name": "Valkey",
+    "slug": "valkey",
+    "desc": "Valkey is an open source (BSD) high-performance key/value datastore that supports a variety of workloads such as caching, message queues, and can act as a primary database. The project is backed by the Linux Foundation, ensuring it will remain open source forever.",
+    "script": "ct/valkey.sh",
+    "script_url": "https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/valkey.sh",
+    "categories": [
+      9
+    ],
+    "notes": [],
     "type": "ct"
   },
   {
