@@ -527,7 +527,8 @@
       12
     ],
     "notes": [
-      "Bookstack works only with static ip. If you Change the IP of your LXC, you Need to edit the .env File `nano /opt/bookstack/.env`"
+      "Bookstack works only with static IP. If you change the IP of your LXC, you need to edit the .env file",
+      "To see database credentials, type `cat ~/bookstack.creds` in LXC console"
     ],
     "type": "ct",
     "default_credentials": {
@@ -5518,7 +5519,9 @@
     "categories": [
       9
     ],
-    "notes": [],
+    "notes": [
+      "Show Login Credentials, type `cat ~/valkey.creds` in the LXC console"
+    ],
     "type": "ct"
   },
   {
